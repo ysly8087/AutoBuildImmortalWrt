@@ -26,6 +26,11 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES kmod-usb-net-lan78xx
+PACKAGES="$PACKAGES kmod-usb-net-rtl8152
+PACKAGES="$PACKAGES kmod-usb-net-asix-ax88179
+PACKAGES="$PACKAGES kmod-usb-hid
+
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
